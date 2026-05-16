@@ -23,7 +23,7 @@
   ],
   "name":"spr_placa_score",
   "nineSlice":null,
-  "origin":4,
+  "origin":7,
   "parent":{
     "name":"Inicio",
     "path":"folders/Sprites/Inicio.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":20,
-    "yorigin":20,
+    "yorigin":41,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

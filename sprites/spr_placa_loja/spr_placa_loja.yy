@@ -23,7 +23,7 @@
   ],
   "name":"spr_placa_loja",
   "nineSlice":null,
-  "origin":4,
+  "origin":7,
   "parent":{
     "name":"Inicio",
     "path":"folders/Sprites/Inicio.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":19,
-    "yorigin":20,
+    "yorigin":40,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
