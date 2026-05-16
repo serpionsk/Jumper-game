@@ -9,6 +9,9 @@ if (y > camera_get_view_y(view_camera[0]) + cam_height + 60)
 if (fruta_criada != noone && instance_exists(fruta_criada))
 {
     fruta_criada.x = x;
+    fruta_criada.y = y - 10;
+    fruta_criada.hspeed = 0;
+    fruta_criada.vspeed = 0;
 }
 if (x <= 43)
 {

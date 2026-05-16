@@ -7,6 +7,8 @@ if (chance_fruta > 65)
 {
     fruta = instance_create_layer(x, y-10, "Fruta", obj_fruta);
     fruta_criada = fruta;
+    fruta_criada.hspeed = 0;
+    fruta_criada.vspeed = 0;
 }
 vel = -1;
 hspeed = vel;
