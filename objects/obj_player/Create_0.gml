@@ -1,10 +1,12 @@
 cam_y= y;
 cam_x= 0;
 
+sprite_index = global.sprite;
+
 
 //controla audio da fase
-//audio_stop_sound(snd_musica)
-//audio_play_sound(snd_musica, 1, true);
+audio_stop_sound(snd_musica)
+audio_play_sound(snd_musica, 1, true);
 
 
 gravity = 0.3
@@ -12,8 +14,8 @@ gravity = 0.3
 
 movimenta_player = function()
 {
-	var _direita = keyboard_check(vk_right)
-	var _esquerda = keyboard_check(vk_left)
+	var _direita = keyboard_check(vk_right) or keyboard_check(ord("D"))
+	var _esquerda = keyboard_check(vk_left) or keyboard_check(ord("A"))
 	
 	if (_direita)
 	{
@@ -27,12 +29,4 @@ movimenta_player = function()
 	{
 		hspeed = 0
 	}
-	
-	if (keyboard_check_pressed(vk_up)) vspeed = -3
-	if (keyboard_check_released(vk_up)) vspeed = 0
-	if (keyboard_check(vk_down)) vspeed = 3
-	if (keyboard_check_released(vk_down)) vspeed = 0
-
-
-	
 }

@@ -1,0 +1,2 @@
+Xatual = x
+Yatual = y
